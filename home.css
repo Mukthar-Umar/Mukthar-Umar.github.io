@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background: rgb(5, 2, 0);
+    color: rgb(253, 253, 253);
+
+}
+
+/* Navbar */
+nav {
+    width: 100%;
+    padding: 1.2rem 5%;
+    background: rgb(17, 9, 0);
+    border-bottom: 1px solid rgb(15, 0, 0);
+    backdrop-filter: blur(15px);
+    margin-bottom: 2rem;
+    
+    box-shadow: 0 0 10px rgb(253, 100, 45);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fav {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    color:orangered;
+    font-weight: 600;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2.5rem;
+    
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: aliceblue;
+    position:relative;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.nav-links li a:hover {
+    color: rgb(201, 66, 17);
+    
+}
+
+/*Buttons*/
+.btns {
+    display: flex;
+}
+
+.btn {
+    padding: 0.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border-radius: 20px;
+    font-weight: 300;
+    font-size: 0.8rem;
+    background: orangered;
+    color: white;
+    border: none;
+    box-shadow: 0 0 5px rgb(128, 79, 61);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: rgb(173, 49, 3);
+    
+}
+
+/* Details*/
+.namebar {
+    padding-left: 14rem;
+    padding-top: 10rem;
+    font-size: 4.5rem;
+    font-family: sans-serif;
+}
+
+.objective {
+    padding-left: 14rem;
+}
+
+.profile {
+    padding: 6rem 9rem 0 0;
+}
+.profile img {
+    width: 70%;
+    height: 100%;
+    box-shadow: 0 0 15px orangered;
+    border-radius: 50%;
+    
+    
+    
+}
+
+.textwrap {
+    display: flex;
+    gap: 3rem;
+
+    
+}
+
+.intro {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+}
+
+.btns2 {
+    display: flex;
+    margin-left: 14rem;
+}
+
+.btn2 {
+    padding: 0.5rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 0.8rem;
+    background: wheat;
+    color: black;
+    border: none;
+    box-shadow: 0 0 1px white;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: 1rem;
+    
+}
+
+.btn2:hover {
+    background: black;
+    color: white;
+    
+}
+
+.btn-link {
+    padding: 0.5rem;
+    padding-right: 4rem;
+    padding-left: 4rem;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 0.8rem;
+    background: black;
+    color: white;
+    border: none;
+    box-shadow: 0 0 1px white;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+.btn-link:hover {
+  background-color: wheat;
+  color: black;
+}
+
+h1 {
+    margin-top: 1rem;
+    color: orangered;
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    background-color: rgb(14, 8, 8);
+    padding: 10px;
+    padding-left: 30px;
+    font-size: 1rem;
+    margin-top: auto;
+}
+
+.footer-link {
+    padding: 10px;
+    margin: 0;
+}
+
+.footer .footer-link {
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer h3 {
+    color: white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+    color: orangered;
+    transition: 0.15s;
+}
+
+.footer p {
+    padding: 5px;
+    padding-left: 50px;
+
+}
